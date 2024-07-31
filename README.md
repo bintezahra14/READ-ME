@@ -1,5 +1,51 @@
 
 ---
+# CIFAR-10 Image Classification with MobileNetV2
+
+This project demonstrates the use of MobileNetV2 for image classification on the CIFAR-10 dataset. The code includes preprocessing steps, model training, and fine-tuning.
+
+## Requirements
+
+- TensorFlow 2.x
+- NumPy
+- Matplotlib
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/cifar10-mobilenetv2.git
+   cd cifar10-mobilenetv2
+   
+2. Create a virtual environment and activate it:
+   
+  python -m venv venv
+  source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+  
+4. Install the dependencies:
+   
+   pip install -r requirements.txt
+
+## Running the Code
+
+1. Preprocess the data and train the model:
+   
+  python train.py
+  
+3. Fine-tune the model:
+   
+  python fine_tune.py
+
+## Results
+The model achieved an accuracy of ~82% after fine-tuning.
+
+## Project Structure
+
+  train.py: Script to preprocess data and train the initial model.
+  fine_tune.py: Script to fine-tune the pretrained model.
+  README.md: Project documentation.
+  requirements.txt: List of dependencies.
+
 
 ## Project Report
 
